@@ -20,6 +20,12 @@ public class Main {
 //        for (Klientas klientas : kl){
 //            System.out.println(klientas.toString());
 //        }
-        db.sukurkPaslauga();
+        //db.sukurkPaslauga();
+        //db.sukurkDarbuotoja();
+        //db.klientasPagalID();
+        //db.paslaugosPanaudojimas(db.klientasPagalID(), db.darbuotojasPagalID(), db.paslaugaPagalID(), db.suveskMokejima());
+        //db.spausdintiMokejimus();
+        //db.registruotiVizita(db.klientasPagalID(), db.paslaugaPagalID(), db.rezervuotasLaikas());
+        db.gautiArtimiausiaVizita();
     }
 }
