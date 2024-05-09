@@ -90,4 +90,9 @@ public class Klientas extends DatabaseTableObject{
         return "Id: " + id + " | Vardas: " + getKlientoVardas() + " | Pavarde: " + getKlientoPavarde() + " | Gimimo data: " +
                 getGimimoData() + " | Registracijos laikas: " + getRegistracijosLaikas() + " | AR vip? " + isVIP();
     }
+
+    public String toCSV(){
+        return id + "," + getKlientoVardas() + "," + getKlientoPavarde() + "," +
+                getGimimoData() + "," + getRegistracijosLaikas() + "," + isVIP();
+    }
 }
