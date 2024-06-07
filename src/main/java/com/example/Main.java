@@ -37,7 +37,8 @@ public class Main {
         //db.klientaiICSV();
         //db.klientaiICSV();
         //db.mokejimuSumos();
-        db.artimiausiasVizSuKlientoInfo();
+        //db.artimiausiasVizSuKlientoInfo();
+        db.menu();
 
     }
 }
